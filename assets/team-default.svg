@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Default team member portrait">
+  <rect width="240" height="240" fill="#f5f1e8"/>
+  <circle cx="120" cy="92" r="42" fill="#c99a2e"/>
+  <path d="M48 220c8-48 36-76 72-76s64 28 72 76" fill="#333333"/>
+  <path d="M70 220c9-33 27-50 50-50s41 17 50 50" fill="#4b4b4b"/>
+</svg>
