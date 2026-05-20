@@ -652,7 +652,7 @@ h3 {
 .focus-card:nth-child(2)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/sanitation.png") center / cover no-repeat;
+    url("assets/sanitation.jpg") center / cover no-repeat;
 }
 
 .focus-card:nth-child(3)::before {
@@ -664,7 +664,7 @@ h3 {
 .focus-card:nth-child(4)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/women.png") center / cover no-repeat;
+    url("assets/women.jpg") center / cover no-repeat;
 }
 
 .focus-card:nth-child(5)::before {
@@ -676,31 +676,31 @@ h3 {
 .focus-card:nth-child(6)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/culture.png") center / cover no-repeat;
+    url("assets/culture.jpg") center / cover no-repeat;
 }
 
 .focus-card:nth-child(7)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/military.png") center / cover no-repeat;
+    url("assets/military.jpg") center / cover no-repeat;
 }
 
 .focus-card:nth-child(8)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/slum.png") center / cover no-repeat;
+    url("assets/slum.jpg") center / cover no-repeat;
 }
 
 .focus-card:nth-child(9)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/startup.png") center / cover no-repeat;
+    url("assets/startup.jpg") center / cover no-repeat;
 }
 
 .focus-card:nth-child(10)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/football.png") center / cover no-repeat;
+    url("assets/football.jpg") center / cover no-repeat;
 }
 
 .focus-card:hover::before {
