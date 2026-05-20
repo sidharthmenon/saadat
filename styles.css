@@ -595,7 +595,7 @@ h3 {
   aspect-ratio: 5 / 3;
   background:
     linear-gradient(rgba(51, 51, 51, 0.08), rgba(51, 51, 51, 0.08)),
-    url("assets/photos/volunteers.jpg") center / cover no-repeat;
+    url("assets/painting.jpeg") center / cover no-repeat;
   box-shadow: var(--shadow);
   content: "";
 }
