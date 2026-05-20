@@ -649,39 +649,58 @@ h3 {
   transition: transform 220ms ease;
 }
 
-.focus-card:nth-child(2)::before,
-.focus-card:nth-child(3)::before {
+.focus-card:nth-child(2)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/photos/healthcare.jpg") center / cover no-repeat;
+    url("assets/sanitation.png") center / cover no-repeat;
 }
 
-.focus-card:nth-child(3)::before,
-.focus-card:nth-child(9)::before {
+.focus-card:nth-child(3)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
     url("assets/photos/education.jpg") center / cover no-repeat;
 }
 
-.focus-card:nth-child(4)::before,
-.focus-card:nth-child(10)::before {
+.focus-card:nth-child(4)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/photos/empowerment.jpg") center / cover no-repeat;
+    url("assets/women.png") center / cover no-repeat;
 }
 
-.focus-card:nth-child(5)::before,
-.focus-card:nth-child(8)::before {
+.focus-card:nth-child(5)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
     url("assets/photos/sustainability.jpg") center / cover no-repeat;
 }
 
-.focus-card:nth-child(6)::before,
+.focus-card:nth-child(6)::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
+    url("assets/culture.png") center / cover no-repeat;
+}
+
 .focus-card:nth-child(7)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
-    url("assets/photos/partners.jpg") center / cover no-repeat;
+    url("assets/military.png") center / cover no-repeat;
+}
+
+.focus-card:nth-child(8)::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
+    url("assets/slum.png") center / cover no-repeat;
+}
+
+.focus-card:nth-child(9)::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
+    url("assets/startup.png") center / cover no-repeat;
+}
+
+.focus-card:nth-child(10)::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.74)),
+    url("assets/football.png") center / cover no-repeat;
 }
 
 .focus-card:hover::before {
