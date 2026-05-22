@@ -441,6 +441,10 @@ h3 {
   background: #fff;
 }
 
+.section.vision-section{
+  padding-top: 0;
+}
+
 .vision-section .section-shell {
   position: relative;
 }
@@ -452,6 +456,10 @@ h3 {
   background: var(--gold);
   content: "";
   transform: translateX(-1rem);
+}
+
+#vision-title{
+  margin-bottom: 2rem;
 }
 
 .mission-section,
@@ -595,7 +603,7 @@ h3 {
   aspect-ratio: 5 / 3;
   background:
     linear-gradient(rgba(51, 51, 51, 0.08), rgba(51, 51, 51, 0.08)),
-    url("assets/painting.jpeg") center / cover no-repeat;
+    url("assets/photos/volunteers.jpg") center / cover no-repeat;
   box-shadow: var(--shadow);
   content: "";
 }
@@ -763,12 +771,12 @@ h3 {
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.35rem;
 }
 
 .person-card,
-.support-row article {
+.partner-card {
   background: #fff;
   text-align: center;
   padding: 1.6rem 1.2rem;
@@ -785,21 +793,94 @@ h3 {
 }
 
 .person-card h3,
-.support-row h3 {
+.partner-card h3 {
   color: var(--ink);
+  margin-bottom: .5rem;
 }
 
 .person-card p,
-.support-row p {
+.partner-card p {
   margin: 0.4rem 0 0;
   color: var(--muted);
 }
 
-.support-row {
+.partners-section {
+  background: #fff;
+}
+
+.partner-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.35rem;
-  margin-top: 1.35rem;
+}
+
+.partner-card {
+  min-height: 10rem;
+  display: grid;
+  justify-items: start;
+  gap: 0.75rem;
+  border-top: 5px solid var(--gold);
+  text-align: left;
+}
+
+.partner-card--logos {
+  align-content: start;
+}
+
+.partner-person {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.partner-person img {
+  width: 84px;
+  height: 84px;
+  margin: 0;
+  border: 4px solid var(--gold);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.partner-person-copy {
+  min-width: 0;
+}
+
+.partner-card p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+.partner-card span {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.partner-logo-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.partner-logo-slot {
+  min-height: 92px;
+  display: grid;
+  place-items: center;
+  padding: 0.9rem;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-radius: 8px;
+  background: #f7f7f3;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .site-footer {
@@ -947,7 +1028,7 @@ address a:focus-visible {
   .focus-grid,
   .initiative-list,
   .team-grid,
-  .support-row {
+  .partner-grid {
     grid-template-columns: 1fr;
   }
 
@@ -957,6 +1038,10 @@ address a:focus-visible {
   .focus-card,
   .initiative-list article {
     min-height: auto;
+  }
+
+  .partner-logo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .section {
